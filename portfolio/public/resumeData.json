@@ -5,13 +5,13 @@
     "description":"I am a computer scientist, debater, and tech enthusiast.",
     "image":"profilepic.jpg",
     "bio":"I am an incoming Solution Architect at Amazon Web Services. I am excited to graduate in May and start exploring the tech world. I love to work on technical projects. Right now, I learning computer vision.",
-    "email": "salmandjing@gmail.com",
-    "phone": "402-601-7195",
+    "email": "",
+    "phone": "",
     "address":{
-      "street":"1545 S 13th Street",
-      "city":"Lincoln",
-      "state":"Nebraska",
-      "zip": "68502"
+      "street":"",
+      "city":"",
+      "state":"",
+      "zip": ""
     },
     "website": "",
     "resumedownload":"https://drive.google.com/file/d/1raeQiI95-xraEHxq5iWPoz14ywEzqdIs/view?usp=sharing",

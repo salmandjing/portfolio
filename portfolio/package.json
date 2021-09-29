@@ -1,7 +1,7 @@
 {
   "name": "resume-salman",
-  "homepage": "http://salmannako.com/",
   "version": "1.0.0",
+  "homepage": "http://://salmannako.com/",
   "private": true,
   "description": "Single page resume using React",
   "author": {
@@ -25,7 +25,8 @@
   "dependencies": {
     "jquery": "^3.1.1",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "react-router-dom": "^5.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
