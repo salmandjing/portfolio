@@ -1,6 +1,6 @@
 
 
-https://github.com/jwill9999/resume-example
+
 
 
 # React Single Page Resume 

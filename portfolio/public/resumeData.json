@@ -1,0 +1,96 @@
+{
+  "main": {
+    "name":"Salman Djingueinabaye",
+    "occupation":"Computer Science and Mathematics Student.",
+    "description":"I am a computer scientist, debater, and tech enthusiast.",
+    "image":"profilepic.jpg",
+    "bio":"I am an incoming Solution Architect at Amazon Web Services. I am excited to graduate in May and start exploring the tech world. I love to work on technical projects. Right now, I learning computer vision.",
+    "email": "salmandjing@gmail.com",
+    "phone": "402-601-7195",
+    "address":{
+      "street":"1545 S 13th Street",
+      "city":"Lincoln",
+      "state":"Nebraska",
+      "zip": "68502"
+    },
+    "website": "http://www.parisphoto.com/paris/exhibitors",
+    "resumedownload":"#",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/salman-djingueinabaye-41643a1ba/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/salmandjing",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "education":[
+      {
+        "school":"University of Nebraska-Lincoln",
+        "degree":"Computer Science and Mathematics",
+        "graduated":"May 2022",
+        "description":"Bachelor of Science"
+      },
+      {
+        "school":"International Baccalaureate",
+        "degree":"High School",
+        "graduated":"May 2018",
+        "description":"Internationally Accredited High School Program"
+      }
+    ],
+    "work":[
+      {
+        "company":"Amazon Web Services",
+        "title":"Solution Architect",
+        "years":"Starting June 2022",
+        "description":"TBD"
+      },
+      {
+        "company":"Amazon Web Services",
+        "title":"Intern",
+        "years":"May 2021 - August 2021",
+        "description":"Build a web application that serves as a query browser for the Open Subsurface Data Universe(OSDU)."
+      },
+      {
+        "company":"Holland Computing Center",
+        "title":"Supercomputing Intern",
+        "years":"Feb 2020 - May 2021",
+        "description":"Implemented a network caching client for Open Source Grid(OSG) using Go(golang)"
+      },
+      {
+        "company":"Lincoln Public Schools",
+        "title":"Debate Coach",
+        "years":"April 2018 - May 2021",
+        "description":"Implemented a network caching client for Open Source Grid(OSG) using Go(golang)"
+      },
+      {
+        "company":"STEM Curriculum Developer",
+        "title": "University of Nebraska-Lincoln Honors Program",
+        "years":"Sept 2019 - Dec 2019",
+        "description":"Implemented a network caching client for Open Source Grid(OSG) using Go(golang)"
+      }
+    ],
+    "skills":[]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Mystic",
+        "description":"An image taking for a commercial project",
+        "category":"Photoshop",
+        "tags":"Branding, Web Design",
+        "image":"mystic.jpg",
+        "url":"http://port1.com",
+        "modal":"#modal-01"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[]
+  }
+}
