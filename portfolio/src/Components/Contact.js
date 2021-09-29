@@ -80,7 +80,7 @@ class Contact extends Component {
 
                 <div>
                   <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                  <textarea cols="50" rows="15" id="contactMessage"  placeholder="Main Message" name="message"  value={this.state.message} onChange={this.handleChange}></textarea >
+                  <textarea cols="50" rows="5" id="contactMessage"  placeholder="Main Message" name="message"  value={this.state.message} onChange={this.handleChange}></textarea >
                 </div>
 
                 <div>

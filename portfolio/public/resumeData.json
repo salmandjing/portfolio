@@ -51,7 +51,7 @@
         "description":"TBD"
       },
       {
-        "company":"Amazon Web Services",
+        "company":"Amazon Web Services ",
         "title":"Intern",
         "years":"May 2021 - August 2021",
         "description":"Build a web application that serves as a query browser for the Open Subsurface Data Universe(OSDU)."
@@ -138,7 +138,7 @@
         "description":"A debate case recommendation the use of microwind turbines to combat urban heat islands",
         "category":"Addressing Urban Heat Islands and Pollution Using MicroWind Turbines ",
         "tags":"Corruption, Sudan",
-        "image":"corruption.jpg",
+        "image":"turbine.jpg",
         "url":"https://docs.google.com/document/d/1zGrRRkmZQNa963Vy8KOwZdDo6HV1UkLa/edit?usp=sharing&ouid=113697048778182385582&rtpof=true&sd=true",
         "modal":"https://docs.google.com/document/d/1zGrRRkmZQNa963Vy8KOwZdDo6HV1UkLa/edit?usp=sharing&ouid=113697048778182385582&rtpof=true&sd=true"
       }
