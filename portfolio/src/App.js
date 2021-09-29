@@ -7,7 +7,7 @@ import Resume from './Components/Resume';
 import Portfolio from './Components/Portfolio';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
-import {main,portfolio,resume,testimonials} from '../public/resumeData'
+import {main,portfolio,resume} from '../public/resumeData'
 
 
 class App extends Component {

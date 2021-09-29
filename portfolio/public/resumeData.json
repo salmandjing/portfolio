@@ -34,7 +34,7 @@
         "school":"University of Nebraska-Lincoln",
         "degree":"Computer Science and Mathematics",
         "graduated":"May 2022",
-        "description":"Bachelor of Science"
+        "description":"Bachelor of Science - Honors Program - University Debate Team"
       },
       {
         "school":"International Baccalaureate",
@@ -80,13 +80,13 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Mystic",
-        "description":"An image taking for a commercial project",
-        "category":"Photoshop",
-        "tags":"Branding, Web Design",
-        "image":"mystic.jpg",
-        "url":"http://port1.com",
-        "modal":"#modal-01"
+        "title":"Covid Time Series Analysis",
+        "description":"Our goal in this project is to analyze the effects of mask mandates and executive orders (I.e., stay at home orders) issued in regard to COVID-19 in 6 counties/cities to determine if there is an association between their implementation and infection and death rates related to COVID-19.",
+        "category":"Data Analysis",
+        "tags":"Covid 19, Data Analytics, R",
+        "image":"dataAnalysis.png",
+        "url":"https://github.com/salmandjing/Covid-19-Time-Series-Analysis",
+        "modal":"https://github.com/salmandjing/Covid-19-Time-Series-Analysis"
       }
     ]
   },
