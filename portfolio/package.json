@@ -1,11 +1,11 @@
 {
-  "name": "resume-example",
+  "name": "resume-salman",
+  "homepage": "http://salmannako.com/",
   "version": "1.0.0",
   "private": true,
   "description": "Single page resume using React",
   "author": {
-    "name": "Jason Williams",
-    "email": "jwill9999@icloud.com"
+    "name": "Salman Djingueinabaye"
   },
   "keywords": [
     "React",
@@ -15,9 +15,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:jwill9999/resume-example.git"
+    "url": ""
   },
-  "homepage": "https://jwill9999.github.io/resume-example",
   "license": "ISC",
   "devDependencies": {
     "gh-pages": "^0.12.0",

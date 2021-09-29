@@ -1,197 +1,152 @@
 {
   "main": {
-    "name":"Henri Leroy",
-    "occupation":"PhotoJournalist and Documentary Photographer. ",
-    "description":"I travel the world with my camera and tell storys in a way no other media can.",
+    "name":"Salman Djingueinabaye",
+    "occupation":"Computer Science and Mathematics Student.",
+    "description":"I am a computer scientist, debater, and tech enthusiast.",
     "image":"profilepic.jpg",
-    "bio":"I am a French Photographer and I have worked in PhotoJournalism now for 15 years. I have had the opportunity to travel the world and document some of the most important events in history",
-    "email": "henrileroy@gmail.com",
-    "phone": "526-721-9318",
+    "bio":"I am an incoming Solution Architect at Amazon Web Services. I am excited to graduate in May and start exploring the tech world. I love to work on technical projects. Right now, I learning computer vision.",
+    "email": "salmandjing@gmail.com",
+    "phone": "402-601-7195",
     "address":{
-      "street":"17 Rue des Quatre Vents",
-      "city":"Paris",
-      "state":"France",
-      "zip": "75006"
+      "street":"1545 S 13th Street",
+      "city":"Lincoln",
+      "state":"Nebraska",
+      "zip": "68502"
     },
-    "website": "http://www.parisphoto.com/paris/exhibitors",
-    "resumedownload":"#",
+    "website": "",
+    "resumedownload":"https://drive.google.com/file/d/1raeQiI95-xraEHxq5iWPoz14ywEzqdIs/view?usp=sharing",
     "social":[
       {
-        "name":"facebook",
-        "url":"http://facebook.com",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"google-plus",
-        "url":"http://googleplus.com",
-        "className":"fa fa-google-plus"
-      },
-      {
         "name":"linkedin",
-        "url":"http://linkedin.com",
+        "url":"https://www.linkedin.com/in/salman-djingueinabaye-41643a1ba/",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"http://github.com",
+        "url":"https://github.com/salmandjing",
         "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
       }
     ]
   },
   "resume":{
     "education":[
       {
-        "school":"The SFC College of Art",
-        "degree":"Bachelor",
-        "graduated":"April 2004",
-        "description":"Bachelor at the college of Art where I studied a broad aspect of skill sets including Photography and typography."
+        "school":"University of Nebraska-Lincoln",
+        "degree":"Computer Science and Mathematics",
+        "graduated":"May 2022",
+        "description":"Bachelor of Science - Honors Program - University Debate Team"
       },
       {
-        "school":"The AB Photography Institute",
-        "degree":"Diploma in Photography",
-        "graduated":"March 2006",
-        "description":"Completed and graduated with the Diploma in Photography at the AB Photography Institute."
+        "school":"International Baccalaureate",
+        "degree":"High School",
+        "graduated":"May 2018",
+        "description":"Internationally Accredited High School Program"
       }
     ],
     "work":[
       {
-        "company":"Block Media, Paris",
-        "title":"Senior Photographer ",
-        "years":"March 2009 - present",
-        "description":"Senior Photographer undertaking all aspects including strobes , photojournalism, documentary photography, Advanced Photoshop editing, and managed a team of Junior staff in a large commercial studio."
+        "company":"Amazon Web Services",
+        "title":"Solution Architect",
+        "years":"Starting June 2022",
+        "description":"TBD"
       },
       {
-        "company":"Eagle Production, Paris",
-        "title":"Junior Photographer",
-        "years":"March 2005 - February 2009",
-        "description":"Consolidating my knowledge and developing my studio skills set .Mastered the art of Photoshop and digital editing."
+        "company":"Amazon Web Services ",
+        "title":"Intern",
+        "years":"May 2021 - August 2021",
+        "description":"Build a web application that serves as a query browser for the Open Subsurface Data Universe(OSDU)."
+      },
+      {
+        "company":"Holland Computing Center",
+        "title":"Supercomputing Intern",
+        "years":"Feb 2020 - May 2021",
+        "description":"Implemented a network caching client for Open Source Grid(OSG) using Go(golang)"
+      },
+      {
+        "company":"Lincoln Public Schools",
+        "title":"Debate Coach",
+        "years":"April 2018 - May 2021",
+        "description":"Implemented a network caching client for Open Source Grid(OSG) using Go(golang)"
+      },
+      {
+        "company":"STEM Curriculum Developer",
+        "title": "University of Nebraska-Lincoln Honors Program",
+        "years":"Sept 2019 - Dec 2019",
+        "description":"Implemented a network caching client for Open Source Grid(OSG) using Go(golang)"
       }
     ],
-    "skills":[
-      {
-        "name":"Photoshop",
-        "level":"40%"
-      },
-      {
-        "name":"Illustrator",
-        "level":"25%"
-      },
-      {
-        "name":"Photography",
-        "level":"70%"
-      },
-      {
-        "name":"Branding",
-        "level":"30%"
-      },
-      {
-        "name":"Education",
-        "level":"50%"
-      }
-      
-    ]
+    "skills":[]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Mystic",
-        "description":"An image taking for a commercial project",
-        "category":"Photoshop",
-        "tags":"Branding, Web Design",
-        "image":"mystic.jpg",
-        "url":"http://port1.com",
-        "modal":"#modal-01"
+        "title":"Covid Time Series Analysis",
+        "description":"Our goal in this project is to analyze the effects of mask mandates and executive orders (I.e., stay at home orders) issued in regard to COVID-19 in 6 counties/cities to determine if there is an association between their implementation and infection and death rates related to COVID-19.",
+        "category":"Data Analysis",
+        "tags":"Covid 19, Data Analytics, R",
+        "image":"dataAnalysis.png",
+        "url":"https://github.com/salmandjing/Covid-19-Time-Series-Analysis",
+        "modal":"https://github.com/salmandjing/Covid-19-Time-Series-Analysis"
       },
       {
-        "title":"Console",
-        "description":"A project for a travel blog taking with a digital camera and edited in photoshop.",
-        "category":"Photograhy",
-        "tags":"Branding, Photography",
-        "image":"console.jpg",
-        "url":"http://port2.com",
-        "modal":"#modal-02"
+        "title":"Stash CP: A Network Caching Client",
+        "description":"Stash CP is a network caching client for the Open Source Grid(OSG). It was built in Go",
+        "category":"Network Caching Using Go",
+        "tags":"Go, Network Caching, Open Source Grid",
+        "image":"networkCaching.jpg",
+        "url":"https://github.com/salmandjing/stashcp",
+        "modal":"https://github.com/salmandjing/stashcp"
       },
       {
-        "title":"Judah",
-        "description":"A professional photoshoot for a cosmetic company. Advanced Photoshop retouching.",
-        "category":"Photoshop, Photography",
-        "tags":"Branding, Photography",
-        "image":"judah.jpg",
-        "url":"http://port3.com",
-        "modal":"#modal-03"
+        "title":"Eco-Dash: A Carbon Footprint Calculator",
+        "description":"A web based carbon footprint calculator for Lincoln, NE",
+        "category":"Carbon Footprint Calculator",
+        "tags":"Carbon Footprint Calculator, Javascript, API",
+        "image":"earth.jpg",
+        "url":"https://github.com/salmandjing/stashcp",
+        "modal":"https://github.com/salmandjing/stashcp"
       },
       {
-        "title":"Into The Light",
-        "description":"Photojournalist imagery taken for a magazine documenting the history of the sport .",
-        "category":"Photography",
-        "tags":"Photography",
-        "image":"into-the-light.jpg",
-        "url":"http://port4.com",
-        "modal":"#modal-04"
+        "title":"Animation: Translation of a Phiastos Disc",
+        "description":"An animation demonstrating the translation of Phiastos Disc",
+        "category":"Animating the Translation of a Phiastos Disc",
+        "tags":"Phiastos Disc, Animation, Google Web Designer",
+        "image":"phiastosDisc.jpg",
+        "url":" https://github.com/salmandjing/Phaistos-Disc",
+        "modal":" https://github.com/salmandjing/Phaistos-Disc"
       },
       {
-        "title":"Carlmer",
-        "description":"An editorial image for a top fashion magazine",
-        "category":"Branding",
-        "tags":"Branding,Photography",
-        "image":"carlmer.jpg",
-        "url":"http://port5.com",
-        "modal":"#modal-05"
+        "title":"Debate: This house should delete social media",
+        "description":"A debate on social media against a British team.",
+        "category":"British Debate on Social Media",
+        "tags":"Debate, Social Media, Debate",
+        "image":"debate.jpg",
+        "url":"https://www.youtube.com/watch?v=rKI2Xsjl1VU&ab_channel=justinkirk",
+        "modal":"https://www.youtube.com/watch?v=rKI2Xsjl1VU&ab_channel=justinkirk"
       },
       {
-        "title":"Forgotten",
-        "description":"A documentary image as part of a larger project for an international charity.",
-        "category":"Photography",
-        "tags":"Photography",
-        "image":"forgotten.jpg",
-        "url":"http://port6.com",
-        "modal":"#modal-06"
+        "title":"Report: Dismantling Corruption Networks in Sudan",
+        "description":"A report on corruption networks in Sudan",
+        "category":"Dismantling Corruption Networks in Sudan",
+        "tags":"Corruption, Sudan",
+        "image":"corruption.jpg",
+        "url":" https://docs.google.com/document/d/1m1LoduIX4CI9mqBoADxZCV5l2KxE7t_PhkrlAYK2vHM/edit?usp=sharing",
+        "modal":" https://docs.google.com/document/d/1m1LoduIX4CI9mqBoADxZCV5l2KxE7t_PhkrlAYK2vHM/edit?usp=sharing"
       },
       {
-        "title":"The Street",
-        "description":"This image was for a commercial stylist and magazine editorial.",
-        "category":"Photography",
-        "tags":"Branding, Photoshop",
-        "image":"thestreet.jpg",
-        "url":"http://port7.com",
-        "modal":"#modal-07"
-      },
-      {
-        "title":"The young one",
-        "description":"This image was taken for a world wide Fashion store specialising in menswear.",
-        "category":"Photography",
-        "tags":"Photography",
-        "image":"theyoungone.jpg",
-        "url":"http://port8.com",
-        "modal":"#modal-08"
+        "title":"MicroWind Turbines as a Solution to Urban Heat Islands",
+        "description":"A debate case recommendation the use of microwind turbines to combat urban heat islands",
+        "category":"Addressing Urban Heat Islands and Pollution Using MicroWind Turbines ",
+        "tags":"Corruption, Sudan",
+        "image":"turbine.jpg",
+        "url":"https://docs.google.com/document/d/1zGrRRkmZQNa963Vy8KOwZdDo6HV1UkLa/edit?usp=sharing&ouid=113697048778182385582&rtpof=true&sd=true",
+        "modal":"https://docs.google.com/document/d/1zGrRRkmZQNa963Vy8KOwZdDo6HV1UkLa/edit?usp=sharing&ouid=113697048778182385582&rtpof=true&sd=true"
       }
+
+      
     ]
   },
   "testimonials":{
-    "testimonials":[
-      {
-        "text":"We used Henri to take images on our behalf for a recent multi-million pound project. He completely understood the brief and his shots were well taken, striking and wonderfully framed. Henri is a punctual, polite and trustworthy individual who I wouldn’t hesitate to recommend to others as we will definitely be using him for future projects. He is a pleasure to work with.",
-        "user":"Laura Evans"
-      },
-      {
-        "text":"We approached Henri with an 11th hour request to photograph a building we had just re-branded. We were on a very tight deadline to produce the promotional material, ready for a launch party the following week. Henri was incredibly accommodating, and made himself available for the following day The photographs were excellent and met with the client’s approval, so much so that he also became the photographer for the launch event! Henri is highly personable and professional and I have no hesitation in recommending him.",
-        "user":"Steven Lauder (Director)"
-      }
-    ]
+    "testimonials":[]
   }
 }
