@@ -91,7 +91,7 @@
       {
         "title":"Stash CP: A Network Caching Client",
         "description":"Stash CP is a network caching client for the Open Source Grid(OSG). It was built in Go",
-        "category":"Network Caching with Go",
+        "category":"Network Caching Using Go",
         "tags":"Go, Network Caching, Open Source Grid",
         "image":"networkCaching.jpg",
         "url":"https://github.com/salmandjing/stashcp",
@@ -114,8 +114,36 @@
         "image":"phiastosDisc.jpg",
         "url":" https://github.com/salmandjing/Phaistos-Disc",
         "modal":" https://github.com/salmandjing/Phaistos-Disc"
+      },
+      {
+        "title":"Debate: This house should delete social media",
+        "description":"A debate on social media against a British team.",
+        "category":"British Debate on Social Media",
+        "tags":"Debate, Social Media, Debate",
+        "image":"debate.jpg",
+        "url":"https://www.youtube.com/watch?v=rKI2Xsjl1VU&ab_channel=justinkirk",
+        "modal":"https://www.youtube.com/watch?v=rKI2Xsjl1VU&ab_channel=justinkirk"
+      },
+      {
+        "title":"Report: Dismantling Corruption Networks in Sudan",
+        "description":"A report on corruption networks in Sudan",
+        "category":"Dismantling Corruption Networks in Sudan",
+        "tags":"Corruption, Sudan",
+        "image":"corruption.jpg",
+        "url":" https://docs.google.com/document/d/1m1LoduIX4CI9mqBoADxZCV5l2KxE7t_PhkrlAYK2vHM/edit?usp=sharing",
+        "modal":" https://docs.google.com/document/d/1m1LoduIX4CI9mqBoADxZCV5l2KxE7t_PhkrlAYK2vHM/edit?usp=sharing"
+      },
+      {
+        "title":"MicroWind Turbines as a Solution to Urban Heat Islands",
+        "description":"A debate case recommendation the use of microwind turbines to combat urban heat islands",
+        "category":"Addressing Urban Heat Islands and Pollution Using MicroWind Turbines ",
+        "tags":"Corruption, Sudan",
+        "image":"corruption.jpg",
+        "url":"https://docs.google.com/document/d/1zGrRRkmZQNa963Vy8KOwZdDo6HV1UkLa/edit?usp=sharing&ouid=113697048778182385582&rtpof=true&sd=true",
+        "modal":"https://docs.google.com/document/d/1zGrRRkmZQNa963Vy8KOwZdDo6HV1UkLa/edit?usp=sharing&ouid=113697048778182385582&rtpof=true&sd=true"
       }
-     
+
+      
     ]
   },
   "testimonials":{
