@@ -14,7 +14,7 @@
       "zip": "68502"
     },
     "website": "http://www.parisphoto.com/paris/exhibitors",
-    "resumedownload":"#",
+    "resumedownload":"https://drive.google.com/file/d/1raeQiI95-xraEHxq5iWPoz14ywEzqdIs/view?usp=sharing",
     "social":[
       {
         "name":"linkedin",
@@ -87,7 +87,35 @@
         "image":"dataAnalysis.png",
         "url":"https://github.com/salmandjing/Covid-19-Time-Series-Analysis",
         "modal":"https://github.com/salmandjing/Covid-19-Time-Series-Analysis"
+      },
+      {
+        "title":"Stash CP: A Network Caching Client",
+        "description":"Stash CP is a network caching client for the Open Source Grid(OSG). It was built in Go",
+        "category":"Network Caching with Go",
+        "tags":"Go, Network Caching, Open Source Grid",
+        "image":"networkCaching.jpg",
+        "url":"https://github.com/salmandjing/stashcp",
+        "modal":"https://github.com/salmandjing/stashcp"
+      },
+      {
+        "title":"Eco-Dash: A Carbon Footprint Calculator",
+        "description":"A web based carbon footprint calculator for Lincoln, NE",
+        "category":"Carbon Footprint Calculator",
+        "tags":"Carbon Footprint Calculator, Javascript, API",
+        "image":"earth.jpg",
+        "url":"https://github.com/salmandjing/stashcp",
+        "modal":"https://github.com/salmandjing/stashcp"
+      },
+      {
+        "title":"Animation: Translation of a Phiastos Disc",
+        "description":"An animation demonstrating the translation of Phiastos Disc",
+        "category":"Animating the Translation of a Phiastos Disc",
+        "tags":"Phiastos Disc, Animation, Google Web Designer",
+        "image":"phiastosDisc.jpg",
+        "url":" https://github.com/salmandjing/Phaistos-Disc",
+        "modal":" https://github.com/salmandjing/Phaistos-Disc"
       }
+     
     ]
   },
   "testimonials":{
