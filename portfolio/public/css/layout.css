@@ -196,6 +196,7 @@ ul#nav li.current a { color: #8bc34a; }
    font: 22px/30px 'opensans-bold', sans-serif;
    color: #303131;
    margin-bottom: 12px;
+   margin-top: -40px;
 }
 #about p {
    line-height: 30px;
@@ -203,8 +204,8 @@ ul#nav li.current a { color: #8bc34a; }
 }
 #about .profile-pic {
    margin-top: -5px;
-   width: 200px;
-   height: 400px;
+   width: 100px;
+   height: 200px;
    border-radius: 100%; 
 }
 #about .contact-details { width: 41.66667%; }

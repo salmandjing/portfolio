@@ -797,6 +797,11 @@ properly.
 	text-align: center !important;
 }
 
-
+#about .profile-pic {
+   margin-top: -5px;
+   width: 100px;
+   height: 200px;
+   border-radius: 100%; 
+}
 
 

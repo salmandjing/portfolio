@@ -5,13 +5,13 @@
     "description":"I am a computer scientist, debater, and tech enthusiast.",
     "image":"profilepic.jpg",
     "bio":"I am an incoming Solution Architect at Amazon Web Services. I am excited to graduate in May and start exploring the tech world. I love to work on technical projects. Right now, I learning computer vision.",
-    "email": "salmandjing@gmail.com",
-    "phone": "402-601-7195",
+    "email": "",
+    "phone": "",
     "address":{
-      "street":"1545 S 13th Street",
-      "city":"Lincoln",
-      "state":"Nebraska",
-      "zip": "68502"
+      "street":"",
+      "city":"",
+      "state":"",
+      "zip": ""
     },
     "website": "",
     "resumedownload":"https://drive.google.com/file/d/1raeQiI95-xraEHxq5iWPoz14ywEzqdIs/view?usp=sharing",
@@ -66,13 +66,13 @@
         "company":"Lincoln Public Schools",
         "title":"Debate Coach",
         "years":"April 2018 - May 2021",
-        "description":"Implemented a network caching client for Open Source Grid(OSG) using Go(golang)"
+        "description":"Lectured on argumentation, taught public speaking and judged national circuit tournaments"
       },
       {
         "company":"STEM Curriculum Developer",
         "title": "University of Nebraska-Lincoln Honors Program",
         "years":"Sept 2019 - Dec 2019",
-        "description":"Implemented a network caching client for Open Source Grid(OSG) using Go(golang)"
+        "description":"Designed a STEM curriculum for underpriviledged youth in rural Nebraska"
       }
     ],
     "skills":[]
@@ -80,7 +80,7 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Covid Time Series Analysis",
+        "title":"Covid-19 Time Series Analysis",
         "description":"Our goal in this project is to analyze the effects of mask mandates and executive orders (I.e., stay at home orders) issued in regard to COVID-19 in 6 counties/cities to determine if there is an association between their implementation and infection and death rates related to COVID-19.",
         "category":"Data Analysis",
         "tags":"Covid 19, Data Analytics, R",

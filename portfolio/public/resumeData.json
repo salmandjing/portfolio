@@ -66,13 +66,13 @@
         "company":"Lincoln Public Schools",
         "title":"Debate Coach",
         "years":"April 2018 - May 2021",
-        "description":"Implemented a network caching client for Open Source Grid(OSG) using Go(golang)"
+        "description":"Lectured on argumentation, taught public speaking and judged national circuit tournaments"
       },
       {
         "company":"STEM Curriculum Developer",
         "title": "University of Nebraska-Lincoln Honors Program",
         "years":"Sept 2019 - Dec 2019",
-        "description":"Implemented a network caching client for Open Source Grid(OSG) using Go(golang)"
+        "description":"Designed a STEM curriculum for underpriviledged youth in rural Nebraska"
       }
     ],
     "skills":[]
@@ -80,7 +80,7 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Covid Time Series Analysis",
+        "title":"Covid-19 Time Series Analysis",
         "description":"Our goal in this project is to analyze the effects of mask mandates and executive orders (I.e., stay at home orders) issued in regard to COVID-19 in 6 counties/cities to determine if there is an association between their implementation and infection and death rates related to COVID-19.",
         "category":"Data Analysis",
         "tags":"Covid 19, Data Analytics, R",
