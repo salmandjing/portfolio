@@ -9,9 +9,9 @@
     "phone": "",
     "address":{
       "street":"",
-      "city":"",
-      "state":"",
-      "zip": ""
+      "city":"Lincoln",
+      "state":"Nebraska",
+      "zip": "68502"
     },
     "website": "",
     "resumedownload":"https://drive.google.com/file/d/1raeQiI95-xraEHxq5iWPoz14ywEzqdIs/view?usp=sharing",
@@ -54,7 +54,7 @@
         "company":"Amazon Web Services ",
         "title":"Intern",
         "years":"May 2021 - August 2021",
-        "description":"Build a web application that serves as a query browser for the Open Subsurface Data Universe(OSDU)."
+        "description":"Built a web application that serves as a query browser for the Open Subsurface Data Universe(OSDU)."
       },
       {
         "company":"Holland Computing Center",
