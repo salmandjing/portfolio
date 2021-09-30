@@ -48,7 +48,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -196,13 +196,14 @@ ul#nav li.current a { color: #8bc34a; }
    font: 22px/30px 'opensans-bold', sans-serif;
    color: #303131;
    margin-bottom: 12px;
+   margin-top: -40px;
 }
 #about p {
    line-height: 30px;
    color: #303131;
 }
 #about .profile-pic {
-   margin-top: -5px;
+   margin-top: -65px;
    width: 200px;
    height: 400px;
    border-radius: 100%; 
@@ -770,8 +771,8 @@ call-to-action .button {
 
 #contact {
    background: #191919;
-   padding-top: 96px;
-   padding-bottom: 102px;
+   padding-top: 20px;
+   padding-bottom: 1px;
    color: #FFFFFF;
 }
 #contact .section-head { margin-bottom: 42px; }

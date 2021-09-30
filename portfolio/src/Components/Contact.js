@@ -41,7 +41,10 @@ class Contact extends Component {
       var state = this.props.data.address.state;
       var zip = this.props.data.address.zip;
       var phone = this.props.data.phone;
-      //var email = this.props.data.email;
+      var email = this.props.data.email;
+      var networks = this.props.data.social.map(function (network) {
+        return <li key={network.name}><a href={network.url} target="_blank" rel="noopener noreferrer"><i className={network.className}></i></a></li>
+      });
     }
     return (
       <section id="contact">
@@ -51,65 +54,10 @@ class Contact extends Component {
           </div>
 
           <div className="ten columns">
-            <p className="lead"> Please hit me up if you want to work on projects, talk about tech, proffesional development or anything interesting.
+            <p className="lead"> Please hit me up if you want to work on projects, talk about tech, proffesional development or anything interesting. Click the arrow below for my LinkedIn.
                   </p>
 
           </div>
-        </div>
-        <div className="row">
-
-          <div className="eight columns">
-
-            <form  onSubmit={this.handleSubmit}  id="contactForm" name="contactForm">
-              <fieldset>
-
-                <div>
-                  <label htmlFor="contactName">Name <span className="required">*</span></label>
-                  <input type="text"  size="35" id="contactName" placeholder="Name Required" name='name'  value={this.state.name} onChange={this.handleChange} />
-                </div>
-
-                <div>
-                  <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                  <input type="text"  size="35" id="contactEmail" placeholder="Email Required" name="email" value={this.state.email} onChange={this.handleChange} />
-                </div>
-
-                <div>
-                  <label htmlFor="contactSubject">Subject</label>
-                  <input type="text"  size="35" placeholder="Subject Title" id="contactSubject" name="subject" value={this.state.subject} onChange={this.handleChange}   />
-                </div>
-
-                <div>
-                  <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                  <textarea cols="50" rows="5" id="contactMessage"  placeholder="Main Message" name="message"  value={this.state.message} onChange={this.handleChange}></textarea >
-                </div>
-
-                <div>
-                 
-                  <button type='submit' className="submit">Submit</button>
-                  <span id="image-loader">
-                    <img alt="" src="images/loader.gif" />
-                  </span>
-                </div>
-
-              </fieldset>
-            </form>
-
-            <div id="message-warning"> Error boy</div>
-            <div id="message-success">
-              <i className="fa fa-check"></i>Your message was sent, thank you!<br />
-            </div>
-
-          </div>
-
-
-          <aside className="four columns footer-widgets">
-
-            <div className="widget widget_contact">
-
-            </div>
-
-
-          </aside>
         </div>
 
       </section>

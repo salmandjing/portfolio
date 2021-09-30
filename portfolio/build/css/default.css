@@ -82,7 +82,7 @@ pre {
    word-wrap: break-word;
 }
 
-blockquote, q { quotes: &#8220 &#8220; }
+blockquote, q { quotes: #8220 #8220; }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -797,6 +797,11 @@ properly.
 	text-align: center !important;
 }
 
-
+#about .profile-pic {
+   margin-top: -5px;
+   width: 100px;
+   height: 200px;
+   border-radius: 100%; 
+}
 
 
