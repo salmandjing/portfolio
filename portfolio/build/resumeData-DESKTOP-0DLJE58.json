@@ -4,8 +4,8 @@
     "occupation":"Computer Science and Mathematics Student.",
     "description":"I am a computer scientist, debater, and tech enthusiast.",
     "image":"profilepic.jpg",
-    "bio":"I am an incoming Solution Architect at Amazon Web Services. I am excited to graduate in May and start exploring the tech world. My favorite activity is debate. In my free time, I debate on the university team. I am also training to become the best ping pong player at Amazon. I love working on technical projects. Right now, I'm getting into computer vision.",
-    "email": "salmandjing@gmail.com",
+    "bio":"I am an incoming new grad at Amazon Web Services. I am excited to graduate in May and start exploring the tech world. My favorite activity is debate. In my free time, I debate on the university team. I am also training to become the best ping pong player at Amazon. I love working on technical projects. Right now, I'm getting into computer vision.",
+    "email": "",
     "phone": "",
     "address":{
       "street":"",
@@ -103,8 +103,8 @@
         "category":"Carbon Footprint Calculator",
         "tags":"Carbon Footprint Calculator, Javascript, API",
         "image":"earth.jpg",
-        "url":"https://github.com/salmandjing/stashcp",
-        "modal":"https://github.com/salmandjing/stashcp"
+        "url":"https://github.com/salmandjing/ECO-DASH",
+        "modal":"https://github.com/salmandjing/ECO-DASH"
       },
       {
         "title":"Animation: Translation of a Phiastos Disc",

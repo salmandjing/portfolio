@@ -54,7 +54,7 @@ class Contact extends Component {
           </div>
 
           <div className="ten columns">
-            <p className="lead"> Please hit me up if you want to work on projects, talk about tech, proffesional development or anything interesting. Click the arrow below for my LinkedIn.
+            <p className="lead"> Please hit me up if you want to work on projects, talk about tech, professional development or anything interesting. Click the arrow below for my LinkedIn.
                   </p>
 
           </div>
