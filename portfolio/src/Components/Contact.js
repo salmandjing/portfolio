@@ -1,65 +1,33 @@
 import React, { Component } from 'react';
 
-
 class Contact extends Component {
-  constructor() {
-    super()
-    this.state = {
-      name: '',
-      email: '',
-      subject: '',
-      message: ''
-    }
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-    
-  }
-  handleChange(event) {
-    const target = event.target;
-    const value = event.target.value;
-    const name = target.name;
-
-    this.setState({
-      [name]: value
-    });
-   
-  }
-
-  handleSubmit(event) { 
-    name.value = "",
-    
-    event.preventDefault();
-
-    
-  }
-
   render() {
     if (this.props.data) {
-      var name = this.props.data.name;
-      var street = this.props.data.address.street;
-      var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
-      var zip = this.props.data.address.zip;
-      var phone = this.props.data.phone;
       var email = this.props.data.email;
       var networks = this.props.data.social.map(function (network) {
-        return <li key={network.name}><a href={network.url} target="_blank" rel="noopener noreferrer"><i className={network.className}></i></a></li>
+        return (
+          <a key={network.name} href={network.url} target="_blank" rel="noopener noreferrer">
+            <i className={network.className}></i>
+            <span>{network.name}</span>
+          </a>
+        );
       });
     }
     return (
       <section id="contact">
-        <div className="row section-head">
-          <div className="two columns header-col">
-            <h1><span>Get In Touch.</span></h1>
+        <div className="contact-content">
+          <div className="section-header">
+            <h2>Let's Connect</h2>
+            <p>Interested in working together or just want to chat about tech?</p>
           </div>
-
-          <div className="ten columns">
-            <p className="lead"> Please hit me up if you want to work on projects, talk about tech, professional development or anything interesting. Click the arrow below for my LinkedIn.
-                  </p>
-
+          <div className="contact-links">
+            {networks}
+            <a href={`mailto:${email}`}>
+              <i className="fa fa-envelope"></i>
+              <span>Email</span>
+            </a>
           </div>
         </div>
-
       </section>
     );
   }

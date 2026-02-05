@@ -7,7 +7,8 @@ import Resume from './Components/Resume';
 import Portfolio from './Components/Portfolio';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
-import {main,portfolio,resume} from '../public/resumeData'
+import resumeData from './data/resumeData.json'
+const { main, portfolio, resume } = resumeData
 
 
 class App extends Component {
