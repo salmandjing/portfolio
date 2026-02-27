@@ -13,7 +13,7 @@ class Portfolio extends Component {
             rel="noopener noreferrer"
             className="project-card"
           >
-            <div className="project-image">
+            <div className={`project-image${project.image === 'outagephoto.jpg' ? ' project-image--outage' : ''}${project.image === 'agenticvirtualagent.jpeg' ? ' project-image--agent' : ''}`}>
               <img alt={project.title} src={imageUrl} />
             </div>
             <div className="project-info">

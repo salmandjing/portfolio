@@ -96,16 +96,16 @@
     "projects": [
       {
         "title": "Agentic Contract Analysis Platform",
-        "description": "Multi-agent pipeline that extracts, classifies, and risk-tags clauses across 1,000+ page contract bundles using vector retrieval and semantic chunking. Reduced PPA review cycles from 3-5 days to under 1 hour.",
+        "description": "Built hierarchical agent pipeline for extraction, classification, and risk tagging across PPA and multi-document contract bundles. Designed vector retrieval using OpenSearch k-NN and domain-specific embeddings. Implemented semantic chunking + clause-type classifiers to maintain retrieval precision across 1,000+ page documents. Reduced PPA review time from 3-5 days to under 1 hour.",
         "category": "RAG & Document Intelligence",
         "tags": "RAG, OpenSearch, Embeddings, Document Processing",
-        "image": "contractphoto.png",
+        "image": "contractphoto.jpg",
         "url": "https://github.com/salmandjing/contract-ai",
         "modal": "https://github.com/salmandjing/contract-ai"
       },
       {
         "title": "Computer Vision Defect Detection Pipeline",
-        "description": "Automated turbine inspection pipeline using computer vision for anomaly detection and defect classification. Processes 10,000+ images per cycle across 1,000+ turbines, reducing manual inspection workload by 40%.",
+        "description": "Built automated turbine-inspection pipeline using Lookout for Vision, Lambda, and S3 event-driven workloads. Designed preprocessing steps (tiling, orientation normalization, shadow filtering) to stabilize inference quality. Implemented multi-stage workflow: anomaly detection to defect classification. Scaled to process 10,000+ images per inspection cycle across 1,000+ turbines.",
         "category": "Computer Vision",
         "tags": "Lookout for Vision, Lambda, S3, Computer Vision",
         "image": "turbinephoto.jpg",
@@ -113,8 +113,8 @@
         "modal": "https://github.com/salmandjing/windturbine-inspection-computer-vision"
       },
       {
-        "title": "Agent-to-Agent Healthcare Platform",
-        "description": "Multi-agent orchestration for healthcare workflows where autonomous AI agents collaborate, delegate tasks, and coordinate complex medical processes using the A2A protocol.",
+        "title": "A2A Healthcare Demo",
+        "description": "Agent-to-agent communication demo showcasing multi-agent orchestration in healthcare workflows. Demonstrates how autonomous AI agents can collaborate, delegate tasks, and coordinate complex medical processes using the A2A protocol.",
         "category": "Multi-Agent Systems",
         "tags": "A2A Protocol, Multi-Agent, Healthcare, AI Agents",
         "image": "a2ademophoto.png",
@@ -122,17 +122,8 @@
         "modal": "https://github.com/salmandjing/a2a-demo"
       },
       {
-        "title": "AI Virtual Agent for Insurance",
-        "description": "Supervisor-agent architecture for auto insurance that coordinates claims intake, policy lookup, and coverage verification with AI-to-human handoff and compliance guardrails.",
-        "category": "Multi-Agent Systems",
-        "tags": "Multi-Agent, RAG, Guardrails, Genesys CX, Virtual Agent",
-        "image": "agenticvirtualagent.jpeg",
-        "url": "https://github.com/salmandjing/octank-insurance",
-        "modal": "https://github.com/salmandjing/octank-insurance"
-      },
-      {
         "title": "Multi-Agent Storm/Outage Response System",
-        "description": "Multi-agent orchestration system for real-time storm response with hierarchical coordination, telemetry ingestion, and RAG verification. Deployed to 100+ field crews during the 2024 hurricane season, cutting triage time by 60%.",
+        "description": "Built multi-agent orchestration layer using AWS Bedrock Agents + AgentCore with hierarchical coordination. Implemented Step Functions-driven event state machine managing async workflows, telemetry ingestion, and agent handoffs. Designed RAG verification layer using OpenSearch vector embeddings. Deployed to production supporting 100+ field crews during 2024 hurricane season with 60% reduction in triage time.",
         "category": "Multi-Agent Systems",
         "tags": "Bedrock Agents, AgentCore, Step Functions, RAG, OpenSearch",
         "image": "outagephoto.jpg",
