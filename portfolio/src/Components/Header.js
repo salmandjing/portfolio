@@ -1,6 +1,24 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
 function Header({ data, darkMode, toggleDarkMode }) {
+  const [navHidden, setNavHidden] = useState(false);
+  const lastScrollY = useRef(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      if (currentScrollY > lastScrollY.current && currentScrollY > 80) {
+        setNavHidden(true);
+      } else {
+        setNavHidden(false);
+      }
+      lastScrollY.current = currentScrollY;
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   if (!data) return null;
 
   const { name, occupation, description, social } = data;
@@ -13,7 +31,7 @@ function Header({ data, darkMode, toggleDarkMode }) {
 
   return (
     <header id="home">
-      <nav id="nav-wrap">
+      <nav id="nav-wrap" className={navHidden ? 'nav-hidden' : ''}>
         <ul id="nav">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>

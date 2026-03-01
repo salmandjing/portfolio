@@ -839,3 +839,9 @@ footer p {
 .scroll-indicator {
   display: none !important;
 }
+
+#nav-wrap.nav-hidden {
+  transform: translateY(-100%);
+  opacity: 0;
+  pointer-events: none;
+}
