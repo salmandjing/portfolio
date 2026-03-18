@@ -7,6 +7,9 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: portfolio
 
     steps:
       - name: Checkout
@@ -17,6 +20,7 @@ jobs:
         with:
           node-version: 20
           cache: npm
+          cache-dependency-path: portfolio/package-lock.json
 
       - name: Install dependencies
         run: npm ci
@@ -31,4 +35,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          publish_dir: ./portfolio/build
