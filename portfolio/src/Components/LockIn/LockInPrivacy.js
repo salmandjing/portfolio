@@ -40,7 +40,7 @@ function LockInPrivacy() {
 
           <h2>4. Third-Party Sharing</h2>
           <p>
-            We do not sell, rent, or share your personal information with third parties.
+            We do not sell, rent, or share your personal information with third parties. Messaging opt-in data and consent will not be shared with any third parties.
             Your data is used exclusively to operate the Lock-In Bot service.
           </p>
 

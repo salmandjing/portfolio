@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './LockIn.css';
 
 function LockInLanding() {
+  React.useEffect(() => { document.title = "Lock-In Bot — SMS Accountability Coach"; return () => { document.title = "Salman's Portfolio"; }; }, []);
   const [phone, setPhone] = useState('');
   const [consent, setConsent] = useState(false);
   const [submitted, setSubmitted] = useState(false);
@@ -63,7 +64,7 @@ function LockInLanding() {
                 <span>
                   I agree to receive scheduled SMS check-ins and reminders from Lock-In Bot.
                   Message frequency varies. Message and data rates may apply.
-                  Reply STOP to unsubscribe.
+                  Reply STOP to unsubscribe. Reply HELP for help.
                 </span>
               </label>
             </div>
