@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 
 function Header({ data, darkMode, toggleDarkMode }) {
   const [navHidden, setNavHidden] = useState(false);
@@ -38,6 +39,7 @@ function Header({ data, darkMode, toggleDarkMode }) {
           <li><a href="#resume">Experience</a></li>
           <li><a href="#portfolio">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><Link to="/blog">Blog</Link></li>
           <li>
             <button onClick={toggleDarkMode} className="theme-toggle" aria-label="Toggle theme">
               <i className={darkMode ? 'fa fa-sun-o' : 'fa fa-moon-o'}></i>
